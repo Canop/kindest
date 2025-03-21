@@ -6,7 +6,7 @@
 //! prefix.
 //!
 //! ```
-//! use kind::*;
+//! use kindest::*;
 //!
 //! // The structs we want to define Id types for are just annotated. The
 //! // Identifiable trait is derived.
@@ -72,7 +72,7 @@ mod openapi;
 mod serde_serialize;
 
 #[allow(unused_imports)]
-pub use {error::*, id::*, id_class::*, ided::*, identifiable::*, kind_proc::*};
+pub use {error::*, id::*, id_class::*, ided::*, identifiable::*, kindest_proc::*};
 
 #[allow(unused_imports)]
 #[cfg(feature = "serde")]

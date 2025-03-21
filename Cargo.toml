@@ -1,9 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["kind_proc"]
+members = ["kindest_proc"]
 
 [package]
-name = "kind"
+name = "kindest"
 version = "1.0.0"
 edition = "2021"
 rust-version = "1.65"
@@ -11,7 +11,7 @@ description = "Costless typed identifiers backed by UUID, with kind readable in 
 keywords = ["serde", "sqlx", "type", "uuid"]
 license = "MIT"
 categories = ["rust-patterns"]
-repository = "https://github.com/wingbackapp/kind"
+repository = "https://github.com/Canop/kindest"
 readme = "README.md"
 
 [features]
@@ -22,8 +22,8 @@ serde = ["dep:serde", "dep:serde_json"]
 sqlx = ["dep:sqlx"]
 
 [dependencies]
-kind_proc = { path = "kind_proc", version = "1.0.0" }
-schemars = { optional = true, version = "0.8.16" }
+kindest_proc = { path = "kindest_proc", version = "1.0.0" }
+schemars = { optional = true, version = "1.0.0-alpha.17", features = ["chrono04", "indexmap2", "rust_decimal1"] }
 serde = { optional = true, version = "1.0", features = ["derive"] }
 serde_json = { optional = true, version = "1.0" }
 sqlx = { optional = true, version = "0.8", default-features = false, features = ["macros", "runtime-async-std-rustls", "postgres", "chrono", "json", "uuid"] }

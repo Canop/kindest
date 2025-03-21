@@ -3,14 +3,23 @@
 [![Latest Version][s1]][l1]
 [![Docs badge]][docs.rs]
 
-[s1]: https://img.shields.io/crates/v/kind.svg
-[l1]: https://crates.io/crates/kind
+[s1]: https://img.shields.io/crates/v/kindest.svg
+[l1]: https://crates.io/crates/kindest
 
 [s2]: https://img.shields.io/badge/license-MIT-blue.svg
 [l2]: LICENSE
 
 [Docs badge]: https://img.shields.io/badge/docs.rs-rustdoc-green
-[docs.rs]: https://docs.rs/kind/
+[docs.rs]: https://docs.rs/kindest/
+
+
+## Kindest ?
+
+**This is a fork of [kind](https://github.com/wingbackapp/kind)**
+
+It mostly updates json-schema to the (still not stable) version 1.0.
+
+Prefer to use the original if you can.
 
 ## Why kind ?
 

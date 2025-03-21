@@ -3,7 +3,7 @@
 /// A value can be parsed from string, the type being guessed from the prefix.
 ///
 /// ```
-/// use kind::*;
+/// use kindest::*;
 ///
 /// // Declare 2 types
 /// #[derive(Debug, Identifiable)]
