@@ -1,3 +1,7 @@
+//! Warning: this is a for of the [kind](https://crates.io/crates/kind) crate.
+//!
+//! Please use the original crate if you can.
+//!
 //! A `kind::Id` is strongly typed to avoid misuse of Rust APIs, especially
 //! when functions ask for several ids of different types.
 //!
